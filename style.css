@@ -168,12 +168,11 @@
     /* Media queries*/
     
     /* Mobile screen queries*/
-    
     @media only screen and (Max-width:545px){
     .Container{
         flex-direction:column;
         flex-wrap: wrap;
-        width:90%; height:100%;
+        width:90%; 
         margin-top:25px;
         margin-left: 5px;  
         padding: 10px;
@@ -185,14 +184,16 @@
     .circle{
         margin-right: 100px ;
     }
-    .Toph{
-        width: 97%;
+    .a2{
+        color: #0d4a65;
+        height: 20px;
     }
     
      
     .list1{
-        width:300px;
-        height: 250px;
+        width:357px;
+        height: 257px;
+        border-radius: 20px;
     }
     
     .newtask{
@@ -201,9 +202,11 @@
         position: absolute; left: 4%; top: 40%;
     }
     .page3list{
-        width: 300px;
-        height: 300px;
-        position: absolute; left: 10%;
+        width: 363px;
+        height: 316px;
+        position: absolute;
+        left: 5%;
+        border-radius: 10px;
     }
     .taska3{
         display: none;
